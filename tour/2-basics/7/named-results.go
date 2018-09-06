@@ -9,5 +9,7 @@ func split(sum int) (x, y int) {
 }
 
 func main() {
-	fmt.Println(split(17))
+	x, y := split(50)
+	fmt.Printf("x = %+v\n", x)
+	fmt.Printf("y = %+v\n", y)
 }
